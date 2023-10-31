@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Registrar</title>
+</head>
+<body>
+
+    <h1>Back-end.</h1>
+    
+    <div class="card">
+        <h3>Crie sua conta hoje</h3>
+        <fieldset>
+        <form action="/registro" method="post">
+            <label for="name">Nome</label>
+            <input type="text" name="nome" class="form-control" required>
+            <br><br>
+
+            <label for="email">Email</label>
+            <input type="text" name="email" class="form-control" required>
+            <br><br>
+
+            <label for="senha">Senha</label>
+            <input type="password" name="password" class="form-control" required>
+            <br><br>
+
+            <button type="submit" class="btn btn-success mt-4">Criar Conta</button>
+        </form>
+    </fieldset>
+    </div>
+    
+</body>
+</html>
